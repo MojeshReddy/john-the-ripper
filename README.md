@@ -1,5 +1,5 @@
 # john-the-ripper
-ohn the Ripper is a powerful, open-source password cracking software tool originally developed for Unix-based systems. It is widely used for both security auditing and penetration testing to identify weak passwords. This repository provides the latest versions of John the Ripper, along with essential updates and security patches. 
+john the Ripper is a powerful, open-source password cracking software tool originally developed for Unix-based systems. It is widely used for both security auditing and penetration testing to identify weak passwords. This repository provides the latest versions of John the Ripper, along with essential updates and security patches. 
 Introduction to John the Ripper:
 John the Ripper is a tool used for cracking passwords, known for its speed and efficiency.
 It works by decrypting passwords converted into hash forms using various algorithms.
