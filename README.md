@@ -12,16 +12,17 @@ The tutorial uses browserling.com to demonstrate how a single password can have 
 The tutorial is demonstrated on Kali Linux.
 It begins with opening a terminal window and gaining root access.
 
+
  Locating Passwords:
 Passwords are located in the /etc/shadow file in hash format.
 The tutorial shows how to view accounts and their corresponding hashed passwords.
 
  Creating Test Users:
-Demonstrates adding new users (test01 and test02) and setting passwords for them.
+Demonstrates adding new users (user1) and setting passwords for them.
 These new accounts are then visible in the /etc/shadow file.
 
  Preparing for Password Cracking:
-A copy of the /etc/shadow file is made and edited to include only the test accounts.
+A copy of the /etc/shadow file is made and edited to include only the user1 account.
 The file is saved as pass.txt for use with John the Ripper.
 
  Cracking Passwords:
@@ -29,4 +30,5 @@ The command john --format=crypt pass.txt is used to start cracking passwords.
 John the Ripper identifies the passwords for both test accounts.
 
  Verifying Cracked Passwords:
-The command john --show pass.txt confirms that the passwords have been cracked successfully.
+The command john --show pass.txt confirms that the password have been cracked successfully.
+
