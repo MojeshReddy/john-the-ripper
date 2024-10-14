@@ -32,3 +32,4 @@ John the Ripper identifies the passwords for both test accounts.
  Verifying Cracked Passwords:
 The command john --show pass.txt confirms that the password have been cracked successfully.
 
+#![Screenshot_2024-10-14_17_28_23](https://github.com/user-attachments/assets/514a36e6-8440-49c2-ae0f-f9b99c21d95f)
